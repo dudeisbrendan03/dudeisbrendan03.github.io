@@ -6,17 +6,24 @@ body {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #eee5df;
 }
+/** OLD FONT COLOUR #042f42 **/
 /*---------->masthead<----------*/
 
 .masthead {
   padding: 6em 0;
-  background-image: url('about.jpg');
+  background-image: url('abouthead.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-top: solid 1.5em #29516a;
   font-family: oswald, helvetica, sans-serif;
   text-align: center;
   color: cfc7c3;
+  /**width: 80%;
+  margin: 1em auto;
+  box-shadow: 50px 50px 113px #333333 inset,-50px -50px 110px #252525 inset;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;   FADING/VINEGETTE EFFECT FOR PHOTO**/
 }
 
 .masthead-intro {
@@ -37,11 +44,12 @@ body {
 /*-------Body Section--------*/
 
 .aboutme-section,
+
 .fewthings-section {
   max-width: 38em;
   margin-left: auto;
   margin-right: auto;
-  margin top: 2em;
+  margin-top: 2em;
   font-family: Oswald, helvetica, sans-serif;
   color: #042f42;
 }
