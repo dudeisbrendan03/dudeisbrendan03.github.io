@@ -1,0 +1,18 @@
+#box150px {
+    height: 150px;
+    width: 150px
+}
+#triangle_right {
+    width: 0;
+    height: 0;
+    border-top: 70px solid transparent;
+    border-left: 140px solid #0043d4;
+    border-bottom: 70px solid transparent;
+    float: left;
+}
+
+.whitetxt {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+}
