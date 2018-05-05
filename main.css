@@ -1,12 +1,12 @@
 body {
     margin: 0;
-    background-color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Courier New';
 }
+
 .center {
     display: table;
     height: 100px;
@@ -19,7 +19,6 @@ body {
     background-image: url('http://wallpaperlepi.com/wp-content/uploads/2015/09/Blue-Lines-Abstract-HD-Picture.jpg');
     background-size: cover;
     background-position: center;
-    /**z-index: 1;**/
 }
 
 .noPText {
@@ -51,8 +50,8 @@ body {
 }
 
 .test {
-    color: #095a9c;
-    background-image: -webkit-linear-gradient(92deg,#0f4ccf,#0fdeec);
+    color: #09ee2f;
+    background-image: -webkit-linear-gradient(92deg,#09ee2f,#02be0bb7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -107,16 +106,16 @@ body {
 @keyframes appear {
     0% {
         transform: translate(0, 2px);
-        text-shadow: 0px 0px #05b4e9;
+        text-shadow: 0px 0px #04ff04;
     }
     50% {
         opacity: 1;
         transform: translate(0, 2px);
-        text-shadow: 0px 0px #057be9;
+        text-shadow: 0px 0px #07d300;
     }
     100% {
         opacity: 1;
         transform: translate(0, 0);
-        text-shadow: 2px 2px #0542e9;
+        text-shadow: 2px 2px #027202;
     }
 }
