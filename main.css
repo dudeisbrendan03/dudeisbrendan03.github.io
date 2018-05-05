@@ -7,22 +7,32 @@ body {
     height: 100vh;
     font-family: 'Quicksand', sans-serif;
 }
+.center {
+    display: table;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    /*border: 2px dashed #f69c55*/
+}
 .mainbg {
     bottom: 0; top: 0; right: 0; left: 0; position: absolute;
-    background-image: url('https://images2.alphacoders.com/600/600022.png');
+    background-image: url('http://wallpaperlepi.com/wp-content/uploads/2015/09/Blue-Lines-Abstract-HD-Picture.jpg');
     background-size: cover;
     background-position: center;
     /**z-index: 1;**/
 }
 
-.blur {
-    bottom: 0; top: 0; right: 0; left: 0; position: absolute;
-    background-image: url('https://images2.alphacoders.com/600/600022.png');
-    background-size: cover;
-    background-position: center;
-    /**z-index: 2;**/
-    filter: blur(5px) brightness(1.1);
-    animation: reveal ease 3s 1 forwards;
+.noPText {
+    opacity: 0;
+    width: 100%;
+    padding: 23% 22% 0 20%;
+    box-sizing: border-box;
+    font-weight: 300;
+    color: white;
+    font-size: 135px;
+    line-height: 1;
+    z-index: 3;
+    animation: appear ease 2s 1 2s forwards;
 }
 
 .text {
@@ -39,6 +49,13 @@ body {
     z-index: 3;
     animation: appear ease 2s 1 2s forwards;
 }
+
+.test {
+    color: #095a9c;
+    background-image: -webkit-linear-gradient(92deg,#0f4ccf,#0fdeec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 
 .stext {
     position: absolute;
@@ -90,16 +107,16 @@ body {
 @keyframes appear {
     0% {
         transform: translate(0, 2px);
-        text-shadow: 0px 0px #cb6346;
+        text-shadow: 0px 0px #05b4e9;
     }
     50% {
         opacity: 1;
         transform: translate(0, 2px);
-        text-shadow: 0px 0px #cb6346;
+        text-shadow: 0px 0px #057be9;
     }
     100% {
         opacity: 1;
         transform: translate(0, 0);
-        text-shadow: 2px 2px #cb6346;
+        text-shadow: 2px 2px #0542e9;
     }
 }

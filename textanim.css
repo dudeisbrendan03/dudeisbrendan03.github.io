@@ -9,6 +9,29 @@
     animation: appear ease 2s 1 2s forwards;
 }
 
+.mtext {
+    position: sticky;
+    opacity: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    line-height: 0.7;
+    /**z-index: 999999999999;**/
+    animation: appear ease 2s 1 2s forwards;
+}
+
+.ttext {
+    position: sticky;
+    opacity: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 0.7;
+    /**z-index: 999999999999;**/
+    animation: appear ease 2s 1 2s forwards;
+}
 .stext {
     position: absolute;
     opacity: 0;
@@ -20,10 +43,13 @@
     color: white;
     font-size: 15px;
     line-height: 1;
-    z-index: 4;
-    animation: appear ease 2s 1 2s forwards;
+    /**z-index: 4;**/
+    animation: appear ease 5s 1 5s forwards;
 }
-
+.bottom {
+    position:fixed;
+    bottom:0;
+}
 @keyframes reveal {
     0% {
         clip-path: inset(20% 80% 20% 20%);

@@ -1,0 +1,22 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.right {
+    float: right;
+  }
+.left {
+     float: left;
+  }
+.staticpos {
+    position: static
+  }
+.absolutepos {
+    position: absolute
+}
+.relativepos {
+    position: relative
+}
+.irrelevant {
+    z-index: 1
+}
