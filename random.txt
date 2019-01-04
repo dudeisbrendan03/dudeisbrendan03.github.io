@@ -1,4 +1,0 @@
-regret
-lies
-truth
-fortune
