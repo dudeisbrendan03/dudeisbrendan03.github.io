@@ -1,0 +1,9 @@
+#a {height: 800px;overflow: hidden;position: relative;}
+#ab {background: url("photos/mountain.png") no-repeat center bottom/cover;height: 180px;}
+.l {background-position: bottom center;background-size: auto;background-repeat: no-repeat;width: 100%;height: 800px;position: fixed;z-index: -1;}
+@media all and (max-width: 608px) {#a {display: none;}#ab {display: block;}}
+.l1-fg {background-image: url("photos/pbg/layer1.png");}
+.l2 {background-image: url("photos/pbg/layer2.png");}
+.l3 {background-image: url("photos/pbg/layer3.png");}
+.l4 {background-image: url("photos/pbg/layer4.png");}
+.l5-bg {background-image: url("photos/pbg/layer5.png");}

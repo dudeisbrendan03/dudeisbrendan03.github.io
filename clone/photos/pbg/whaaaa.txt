@@ -1,0 +1,1 @@
+Got a photo, cut it to 16:9 then cut the photo up into different layers, allowing me to create a parallax effect

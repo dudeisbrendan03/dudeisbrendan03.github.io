@@ -1,25 +1,30 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sorry, be right back</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Staatliches|Thasadith" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="scripts/parallax.css" />
-    <script src="scripts/parallax.js"></script>
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <link rel="stylesheet" href="https://raw.githubusercontent.com/burocratik/outdated-browser/master/outdatedbrowser/outdatedbrowser.min.css">
+  <style>#a{height:800px;overflow:hidden;position:relative}#ab{background:url(photos/mountain.png) center bottom/cover no-repeat;height:180px}.l{background-position:bottom center;background-size:auto;background-repeat:no-repeat;width:100%;height:800px;position:fixed;z-index:-1}@media all and (max-width:608px){#a{display:none}#ab{display:block}}.l1-fg{background-image:url(photos/pbg/layer1.png)}.l2{background-image:url(photos/pbg/layer2.png)}.l3{background-image:url(photos/pbg/layer3.png)}.l4{background-image:url(photos/pbg/layer4.png)}.l5-bg{background-image:url(photos/pbg/layer5.png)}</style>
+  <script>window.addEventListener("scroll",function(t){var e,r,s,n,l,o,a;for(o=this.pageYOffset,l=[],e=0,s=(n=document.querySelectorAll("[tp='plx']")).length;e<s;e++)a="translate3d(0, "+-o*(r=n[e]).getAttribute("depth")+"px, 0)",r.style["-webkit-transform"]=a,r.style["-moz-transform"]=a,r.style["-ms-transform"]=a,r.style["-o-transform"]=a,l.push(r.style.trans=a);return l});</script>
 </head>
 <body>
-    <style>
-        body {padding: 30px;background-color: #fcfcfc;}
-        .outer-div{padding: 25vh;text-align: center;background-color: #f3f3f3;        }
-        .inner-div{display: inline-block;padding: 100px;background-color: #ccc;border-radius: 3px;}
-        h1 {font-family: 'Staatliches', cursive;font-size: 300%;}
-        .mdiv {text-align: center;}
-        p {font-family: 'Thasadith', sans-serif;}
-        .sec100 {height: 100vh; width: 100vw; padding: 0px; margin: 0px}
-    </style>
-    <div id="a" class="sec100" style="background-color: black;"></div>
-    <div id="b" class="sec100" style="background-color: black;"></div>
-</body>
-</html>
+  <script src="https://raw.githubusercontent.com/burocratik/outdated-browser/master/outdatedbrowser/outdatedbrowser.min.js"></script>
+  <div class="l l1-fg" data-depth='0.1' tp='plx'></div>
+  <div class="l l2" data-depth='0.2' tp='plx'></div>
+  <div class="l l3" data-depth='0.5' tp='plx'></div>
+  <div class="l l4" data-depth='0.8' tp='plx'></div>
+  <div class="l l5-bg" data-depth='1' tp='plx'></div>
+  <div id="outdated">
+      <h6>Your browser is out-of-date!</h6>
+      <p>Update your browser to view this website correctly. <a id="btnUpdateBrowser" href="http://outdatedbrowser.com/">Update my browser now </a></p>
+      <p class="last"><a href="#" id="btnCloseUpdateBrowser" title="Close">&times;</a></p>
+  </div>
+  <script>
+      outdatedBrowser({
+        bgColor: '#f25648',
+        color: '#ffffff',
+        lowerThan: 'transform',
+        languagePath: ''
+    })
+  </script>
+</body></html>
+
