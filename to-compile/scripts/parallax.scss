@@ -1,12 +1,11 @@
-#a {height: 800px; overflow: hidden; position: relative;}
+#a {height: 800px; overflow: hidden; position: relative;} //Normal
 
-#ab {
-  display: none;
+#ab { //Mobile
   background: url("photos/mountain.png") no-repeat center bottom / cover;
-  height: 320px;
+  height: 180px;
 }
 
-.l {
+.l { //Layer def
   background-position: bottom center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -16,6 +15,12 @@
   z-index: -1;
 }
 
+@media all and (max-width: 608px) {//people w/ small screens
+  #a {display: none;}// d n/a
+  #ab {display: block;}//d outside
+}
+
+// Layer images
 .l1-fg { background-image: url('photos/pbg/layer1.png')}
 .l2 { background-image: url('photos/pbg/layer2.png')}
 .l3 { background-image: url('photos/pbg/layer3.png')}
