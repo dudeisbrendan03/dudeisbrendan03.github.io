@@ -20,7 +20,6 @@ cinst -y hyper
 
 ## Git
 
-cinst -y git.install
 
 cinst -y poshgit
 
