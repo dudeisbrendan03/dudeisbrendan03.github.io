@@ -1,1 +1,1 @@
-## Delete IC2 classic and the old version of secret rooms
+## Delete IC2 classic, the old versions of secret rooms and buildcraft
